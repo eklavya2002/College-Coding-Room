@@ -1,14 +1,24 @@
 #include <stdio.h>
-int main()
+void reverse(char str[],int len)
 {
-  int x, i = x;
-  do 
+  if(len>=0)
   {
-    printf("enter the vale for x\n");
-    scanf("%d", &x);
-     printf("%d\n", i);
-     i++;
+    printf("%c",str[len]);
   }
-  while (i < 10);
-return 0;
+  else
+  return;
+    reverse(str,len-1);
+      }
+  int main()
+{
+  char s[100];
+  int i;
+  printf("enter a string:");
+  gets(s);
+  for(i=0;s[i]!='\0';i++);
+  reverse(s,i);
+  return 0;
+
+
+  
 }

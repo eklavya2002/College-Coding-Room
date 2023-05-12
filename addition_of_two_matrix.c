@@ -1,6 +1,6 @@
-//Wap to add two matrix
-//Eklavya kumara
-// roll no- 22609
+// Wap to add two matrix
+// Eklavya kumara
+//  roll no- 22609
 #include <stdio.h>
 
 int main()
